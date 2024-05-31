@@ -6,24 +6,25 @@ function APropos() {
       
       
       {/* Premier menu déroulant */}
-      <DropDownMenu title="Fiablilité">
-        Les annonces postées sur Kasa garantissent une fiablilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.
+      <DropDownMenu title="Qui-suis-je?">
+        Je suis un développeur front-end passionné par la création d'expériences utilisateur exceptionnelles et intuitives. Avec une solide expérience dans les langages web modernes tels que HTML, CSS et JavaScript, ainsi qu'une expertise dans les frameworks populaires comme React et Vue.js, je m'efforce de transformer les concepts créatifs en interfaces web dynamiques et réactives. Toujours avide d'apprendre et de m'adapter aux dernières tendances technologiques, je suis déterminé à contribuer à des projets innovants et à fournir des solutions de qualité qui dépassent les attentes des utilisateurs.
       </DropDownMenu>
 
       {/* Deuxième menu déroulant */}
-      <DropDownMenu title="Respect">
-        La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.
+      <DropDownMenu title="Atouts">
+        Patience, compréhension, réactivité sont les maîtres-mots que j'emplois dans le cadre des réalisations qui peuvent m'être assigné et je déploie mon énergie jusqu'à la satisfaction souhaitée pour les utilisateurs.
       </DropDownMenu>
 
       {/* Troisième menu déroulant */}
-      <DropDownMenu title="Service">
-        La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.
+      <DropDownMenu title="Spécialités">
+       <li> <img src="/React-logo.png" alt="react-logo" /></li>
+       <li> <img src="/JavaScript-logo.png" alt="JS-logo" /></li>
+       <li> <img src="/html-logo.png" alt="html-logo" /></li>
+       <li> <img src="/CSS3-logo.png" alt="css-logo" /></li>
+       <li> <img src="/Sass-logo.png" alt="sass-logo" /></li>
       </DropDownMenu>
 
-      {/* Quatrième menu déroulant */}
-      <DropDownMenu title="Sécurité">
-        La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.
-      </DropDownMenu>
+      
       
     </div>
   );

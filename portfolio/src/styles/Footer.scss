@@ -1,18 +1,36 @@
-footer{
-    margin-top: 43px;
-    object-fit: cover;
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+
+  p {
+    margin-bottom: 10px; 
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+    color: white;
+
+    a {
+      margin-right: 10px; /* Espacement entre les icônes */
+    }
+
+    img {
+      width: 60px; /* Ajustez la taille des icônes selon vos besoins */
+      height: auto;
+    }
+  }
 }
 
-
-.footer-logo{
-    width: 100%;
-    display: block;
-    min-height: 85px;
-    object-fit: cover;
-}
 
 @media(max-width: 980px){
     footer{
-        margin-top: 19px;
+        margin-top: 60px;
     }
 }

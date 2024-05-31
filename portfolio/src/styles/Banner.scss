@@ -2,6 +2,7 @@
   position: relative;
   width: 90vw;
   height: 223px;
+  margin-bottom: 60px;
 
   @media (max-width: 890px) {
     height: 111px;
@@ -38,9 +39,9 @@
 }
 
 .bannerText {
-  font-weight: 600;
-  font-size: 48px;
-  color: chartreuse;
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(8, 8, 8);
   position: absolute;
   font-family: 'Courier New', Courier, monospace;
   top: 50%;
@@ -52,7 +53,11 @@
   z-index: 2;
 
   @media (max-width: 890px) {
-    font-size: 24px;
+    font-size: 17px;
     padding-left: 16px;
   }
 }
+
+
+
+

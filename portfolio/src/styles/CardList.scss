@@ -1,24 +1,22 @@
-.card-list {
+.projet-list {
     background-color: #f6f6f6;
     border-radius: 25px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 43px;
-    height: 829px;
-    max-width: 1240px;
-    overflow-y: auto;
+    max-width: 1240px; 
 }
 
 @media (max-width: 1420px) {
-    .card-list {
+    .projet-list {
         gap: 20px;
         justify-content: center;
     }
 }
 
 @media (max-width: 890px) {
-    .card-list {
+    .projet-list {
         background-color: transparent;
         padding: 0;
     }

@@ -8,11 +8,12 @@
   justify-content: center;
   position: relative;
   margin-top: 50px;
+  border: black solid 2px;
 
 
  img {
-  object-fit: cover;
-  width: 100%;
+  object-fit: contain;
+  width: 95%;
   height: 100%;
   border-radius: 10px;
 }
@@ -24,5 +25,11 @@
   font-size: 18px;
   font-family: Monserrat;
   margin-left: 10px;
+}
+
+p{
+  font-family: monospace;
+  color: black;
+  margin: auto;
 }
 }

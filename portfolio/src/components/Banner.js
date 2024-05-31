@@ -6,7 +6,12 @@ function Banner(props) {
     <div className="banner-container">
       <img src={props.image} alt="banner" className="bannerImg" />
       <div className='bannerText'>
-        {props.showText && <p >Hello, je suis Abdilla Alexandre.Bienvenue sur mon espace</p>}
+        {props.showText && (
+        <>
+          <p>Bienvenue</p>
+          <p>Depuis la découverte du langage informatique, c'en est devenu ma passion</p>
+        </>
+        )}
       </div>
     </div>
   );
