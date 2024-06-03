@@ -8,10 +8,10 @@ function Footer() {
       <p>Connectez-vous avec nous :</p>
       <div className="social-links">
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          <img src={githubLogo} alt="Logo GitHub" />
+          <img src={githubLogo} className= "image" alt="Logo GitHub" />
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <img src={instagramLogo} alt="Logo Instagram" />
+          <img src={instagramLogo} className='image' alt="Logo Instagram" />
         </a>
       </div>
     </footer>

@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/404.scss";
+import errorgif from '../assets/404.gif';
 
 function Error404() {
   return (
     <div className="error">
-      <h1>404</h1>
+      <img src={errorgif} className="errorgif" alt="Error 404 GIF" />
       <p className="error_text">
         Oups! La page que vous demandez n'existe pas.
       </p>

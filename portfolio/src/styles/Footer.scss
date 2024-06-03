@@ -24,13 +24,18 @@ footer {
     img {
       width: 60px; /* Ajustez la taille des icônes selon vos besoins */
       height: auto;
+      transform: transform 0.3s ease;
     }
   }
 }
 
+.image:hover {
+    transform: scale(1.1);
+}
 
 @media(max-width: 980px){
     footer{
         margin-top: 60px;
     }
 }
+
