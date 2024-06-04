@@ -37,7 +37,23 @@
 .card:hover {
     transform: scale(1.1);
 }
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+.card-text{
+    max-width: 340px;
+    font-size: large;
+    margin-left: 3%;
+}
 
+.card-stack{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0;
+}
 @media (max-width: 321px) {
     .card {
         max-width: calc(340px - 10%);

@@ -10,11 +10,18 @@ function Card({ projet }) {
   };
 
   return (
+    <>
+    <div className='card-content'>
     <div className="card" onClick={handleClick}>
       <img src={projet.image} alt={projet.nom} />
-      <div className="card-title">{projet.nom}
-      <p>{projet.description}</p></div>
     </div>
+    
+    <div className='card-text'>
+    <p>{projet.description}</p>
+    <p className='card-stack'>{projet.stack}</p>
+    </div>
+    </div>
+    </>
   );
 }
 
