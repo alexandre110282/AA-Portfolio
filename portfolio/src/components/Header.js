@@ -5,11 +5,11 @@ import '../styles/Header.scss';
 function Header() {
   const navigate = useNavigate();
   const goToAPropos = () => {
-    navigate('/AA-Portfolio');
+    navigate('/');
   };
 
   const goToProjects = () => {
-    navigate('/AA-Portfolio/projects');
+    navigate('/projects');
   };
 
   return (
