@@ -1,12 +1,10 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import "../styles/Card.scss"
 
 function Card({ projet }) {
-  const navigate = useNavigate();
-
+  
   const handleClick = () => {
-    window.open(projet.lien_github); // Redirige vers l'URL GitHub du projet
+    window.open(projet.lien_github);
   };
 
   return (

@@ -4,15 +4,12 @@ import '../styles/Header.scss';
 
 function Header() {
   const navigate = useNavigate();
-
-  // Fonction pour naviguer vers la page À Propos lorsque le mot est cliqué
   const goToAPropos = () => {
     navigate('/');
   };
 
-  // Fonction pour naviguer vers la page principale lorsque "Accueil" est cliqué
-  const goToAccueil = () => {
-    navigate('/a-propos');
+  const goToProjects = () => {
+    navigate('/projects');
   };
 
   return (
@@ -21,7 +18,7 @@ function Header() {
       <nav >
         <ul className='nav__list'>
           <li onClick={goToAPropos}>À Propos</li>
-          <li onClick={goToAccueil}>Mes Projets</li>
+          <li onClick={goToProjects}>Mes Projets</li>
           
         </ul>
       </nav>

@@ -14,7 +14,7 @@ function APropos() {
 
       {/* Deuxième menu déroulant */}
       <DropDownMenu title="Atouts">
-        Patience, compréhension, réactivité sont les maîtres-mots que j'emplois dans le cadre des réalisations qui peuvent m'être assigné et je déploie mon énergie jusqu'à la satisfaction souhaitée pour les utilisateurs.
+        <p>Patience, compréhension, réactivité sont les maîtres-mots que j'emplois dans le cadre des réalisations qui peuvent m'être assigné et je déploie mon énergie jusqu'à la satisfaction souhaitée pour les utilisateurs.</p>
       </DropDownMenu>
 
       {/* Troisième menu déroulant */}

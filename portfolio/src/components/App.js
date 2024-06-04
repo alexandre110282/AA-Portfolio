@@ -11,10 +11,9 @@ import '../styles/App.scss'
 
 function App() {
   const location = useLocation();
-  const isAProposPage = location.pathname === '/a-propos';
-  const showText = !isAProposPage;
-
-  const bannerImage = isAProposPage ? BannerApropos : BannerApp;
+  const isProjectsPage = location.pathname === '/projects';
+  const bannerImage = isProjectsPage ? BannerApropos : BannerApp;
+  const showText = !isProjectsPage;
 
   return (
     <div className="App">
@@ -23,7 +22,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<APropos />}  />
-        <Route path="/a-propos" element={<CardList />} />
+        <Route path="/projects" element={<CardList />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />

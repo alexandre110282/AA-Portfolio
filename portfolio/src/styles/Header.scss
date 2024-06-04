@@ -1,76 +1,90 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1240px;
-  margin: 40px 100px 38px 100px;
+.header
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1240px;
+	margin: 40px 100px 38px 100px;
+	@media (min-width: 1440px)
+	{
+		margin-right: auto;
+		margin-left: auto;
+	}
 
-  @media (min-width: 1440px) {
-    margin-right: auto;
-    margin-left: auto;
-  }
+	@media (max-width: 1420px)
+	{
+		margin: 20px auto 28px auto;
+	}
 
-  @media (max-width: 1420px) {
-    margin: 20px auto 28px auto;
-  }
+	@media (max-width: 1280px)
+	{
+		margin: 20px 20px 19px 20px;
+	}
 
-  @media (max-width: 1280px) {
-    margin: 20px 20px 19px 20px;
-  }
+	.nav__list
+	{
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		gap: 30px;
+		font-family: monospace;
+		font-size: 24px;
+		line-height: 142.6%;
+		padding: 0;
+		li
+		{
+			cursor: default;
+			&:hover
+			{
+				text-decoration-line: underline;
+				color: teal;
+			}
 
-  .nav__list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 30px;
-    font-family: monospace;
-    font-size: 24px;
-    line-height: 142.6%;
-    padding: 0;
+			a,a:visited,a:active
+			{
+				text-decoration: none;
+			}
+		}
 
-    li {
-      cursor: default;
+	}
 
-      &:hover {
-        text-decoration-line: underline;
-        color: teal;
-      }
+	@media (max-width: 980px)
+	{
+		.nav__list
+		{
+			font-size: 4vw;
+		}
 
-      a,
-      a:visited,
-      a:active {
-        text-decoration: none;
-      }
-    }
-  }
-
-  @media (max-width: 980px) {
-    .nav__list {
-      font-size: 4vw;
-    }
-  }
+	}
 }
 
-.name {
-  overflow: hidden; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .1em; 
-  animation: typing 3.5s steps(40, end);
-
-  @media (max-width: 980px) {
-    font-size: 4vw;
-  }
+.name
+{
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .1em;
+	animation: typing 3.5s steps(40, end);
+	@media (max-width: 980px)
+	{
+		font-size: 4vw;
+	}
 }
 
+@keyframes typing
+{
+	from
+	{
+	width: 0 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+	to
+	{
+	width: 100% }
 }
 
-@media (max-width: 321px) {
-    .name{
-      font-size: large
-    }
+@media (max-width: 321px)
+{
+	.name
+	{
+	font-size: large}
 }
