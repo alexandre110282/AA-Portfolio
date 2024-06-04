@@ -11,7 +11,7 @@ import '../styles/App.scss'
 
 function App() {
   const location = useLocation();
-  const isProjectsPage = location.pathname === '/projects';
+  const isProjectsPage = location.pathname === '/AA-Portfolio/projects';
   const bannerImage = isProjectsPage ? BannerApropos : BannerApp;
   const showText = !isProjectsPage;
 
@@ -21,8 +21,8 @@ function App() {
       <Banner key={location.pathname} image={bannerImage} showText={showText} />
 
       <Routes>
-        <Route path="/" element={<APropos />}  />
-        <Route path="/projects" element={<CardList />} />
+        <Route path="/AA-Portfolio" element={<APropos />}  />
+        <Route path="/AA-Portfolio/projects" element={<CardList />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />
