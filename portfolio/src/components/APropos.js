@@ -1,4 +1,9 @@
 import DropDownMenu from './DropDownMenu.js';
+import react from '../assets/React-logo.png'
+import javascript from '../assets/JavaScript-logo.png'
+import html from '../assets/html-logo.png'
+import css from '../assets/CSS3-logo.png'
+import sass from '../assets/Sass-logo.png'
 
 function APropos() {
   return (
@@ -19,11 +24,11 @@ function APropos() {
 
       {/* Troisième menu déroulant */}
       <DropDownMenu title="Compétences">
-       <li> <img src="/React-logo.png" alt="react-logo" /></li>
-       <li> <img src="/JavaScript-logo.png" alt="JS-logo" /></li>
-       <li> <img src="/html-logo.png" alt="html-logo" /></li>
-       <li> <img src="/CSS3-logo.png" alt="css-logo" /></li>
-       <li> <img src="/Sass-logo.png" alt="sass-logo" /></li>
+       <li> <img src={react} alt="react-logo" /></li>
+       <li> <img src={javascript} alt="JS-logo" /></li>
+       <li> <img src={html} alt="html-logo" /></li>
+       <li> <img src={css} alt="css-logo" /></li>
+       <li> <img src={sass} alt="sass-logo" /></li>
       </DropDownMenu>
     </div>
   );
