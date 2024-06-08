@@ -8,7 +8,7 @@ function Banner(props) {
       <div className='bannerText'>
         {props.showText && (
         <>
-          <p>Bienvenue</p>
+          <h1>Bienvenue</h1>
           <p>Depuis la découverte du langage informatique, c'en est devenu ma passion</p>
         </>
         )}

@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h1 className='name'> Portfolio Abdilla Alexandre </h1>
+      <h1 className='name'> Portfolio Alexandre Abdilla </h1>
       <nav >
         <ul className='nav__list'>
           <li onClick={goToAPropos}>À Propos</li>
