@@ -1,0 +1,53 @@
+{
+  "about": "À propos",
+  "welcome": "Bienvenue",
+  "passion": "Depuis la découverte du langage informatique, c'en est devenu ma passion",
+  "projects": "Mes Projets",
+  "title1": "Qui-suis-je?",
+  "description1": "Salut ! Je suis un développeur front-end passionné par la création d'expériences utilisateur exceptionnelles et intuitives.<br/><br/>Après avoir terminé ma formation sur OpenClassrooms, je me suis plongé dans le monde du développement web avec une solide expérience dans les langages web modernes comme HTML, CSS et JavaScript.<br/><br/>J'ai également acquis une expertise dans les frameworks populaires tels que React. Mon objectif est de transformer les idées créatives en interfaces web dynamiques et réactives. Toujours avide d'apprendre et de suivre les dernières tendances technologiques, je suis déterminé à contribuer à des projets innovants et à fournir des solutions de qualité qui dépassent les attentes des utilisateurs.",
+  "title2": "Atouts",
+  "description2": "Patience, compréhension, réactivité sont les maîtres-mots que j'emploie dans le cadre des réalisations qui peuvent m'être assigné et je déploie mon énergie jusqu'à la satisfaction souhaitée pour les utilisateurs.",
+  "title3": "Compétences",
+  "projectsData": [
+    {
+      "id": 1,
+      "nom": "Kasa",
+      "description": "Mission: Création d'application React d'une agence immobilière",
+      "stack": "React – ReactRouter – CreateReactApp – Figma – Responsive – MobileFirst – JSON – Git – Github",
+      "image": "Kasa.png",
+      "lien_github": "https://alexandre110282.github.io/Kasa/"
+    },
+    {
+      "id": 2,
+      "nom": "OhMyFood",
+      "description": "Mission: Réalisation de maquette et animation css",
+      "stack": "Github – Git – HTML – Sass – CSS – Responsive – MobileFirst",
+      "image": "ohmyfood.png",
+      "lien_github": "https://alexandre110282.github.io/OhMyFood/"
+    },
+    {
+      "id": 3,
+      "nom": "Booki",
+      "description": "Mission: Création page d'accueil d'un agence de voyage avec HTML et CSS",
+      "stack": "HTML – CSS – Figma– Responsive – MobileFirst",
+      "image": "Booki.png",
+      "lien_github": "https://alexandre110282.github.io/Booki/"
+    },
+    {
+      "id": 4,
+      "nom": "Print-it",
+      "description": "Mission: Création d'un carrousel en JavaScript",
+      "stack": "HTML - CCS - JavaScript",
+      "image": "Print-it.png",
+      "lien_github": "https://alexandre110282.github.io/Print_it/"
+    },
+    {
+      "id": 5,
+      "nom": "Nani Carducci",
+      "description": "Mission: Optimisation du réferencement d'un site de photographe",
+      "stack": "SEO - Lighthouse - GitHub",
+      "image": "Nina_Carducci.png",
+      "lien_github": "https://alexandre110282.github.io/ninacarducci.github.io/"
+    }
+  ]
+}

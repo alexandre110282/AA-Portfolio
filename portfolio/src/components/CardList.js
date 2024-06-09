@@ -1,17 +1,18 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Card from './Card.js';
-import projetData from './listeProjets.json';
-import '../styles/CardList.scss'
+import '../styles/CardList.scss';
 
 function CardList() {
+  const { t } = useTranslation();
+  const projects = t('projectsData', { returnObjects: true });
+
   return (
-    
     <div className="projet-list">
-      {projetData.map((projet) => (
-        <Card key={projet.id} projet={projet} />
+      {projects.map((projet, index) => (
+        <Card key={index} projet={projet} />
       ))}
     </div>
-    
   );
 }
 

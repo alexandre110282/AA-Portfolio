@@ -1,0 +1,53 @@
+{
+  "about": "About me",
+  "welcome": "Welcome",
+  "passion": "Since the discovery of the computer language, it has become my passion",
+  "projects": "Projects",
+  "title1": "Who am I?",
+  "description1": "Hello! I am a front-end developer passionate about creating exceptional and intuitive user experiences.<br/><br/>After completing my training on OpenClassrooms, I immersed myself in the world of web development with solid experience in modern web languages like HTML, CSS, and JavaScript.<br/><br/>I have also gained expertise in popular frameworks such as React. My goal is to transform creative ideas into dynamic and responsive web interfaces. Always eager to learn and follow the latest technological trends, I am determined to contribute to innovative projects and provide quality solutions that exceed user expectations.",
+  "title2": "Strengths",
+  "description2": "Patience, understanding, and responsiveness are the key words I use in the context of the projects that may be assigned to me, and I deploy my energy until the desired satisfaction for the users.",
+  "title3": "Skills",
+  "projectsData": [
+    {
+      "id": 1,
+      "nom": "Kasa",
+      "description": "Mission: Creating a React application for a real estate agency",
+      "stack": "React – ReactRouter – CreateReactApp – Figma – Responsive – MobileFirst – JSON – Git – Github",
+      "image": "Kasa.png",
+      "lien_github": "https://alexandre110282.github.io/Kasa/"
+    },
+    {
+      "id": 2,
+      "nom": "OhMyFood",
+      "description": "Mission: Creating mockups and CSS animations",
+      "stack": "Github – Git – HTML – Sass – CSS – Responsive – MobileFirst",
+      "image": "ohmyfood.png",
+      "lien_github": "https://alexandre110282.github.io/OhMyFood/"
+    },
+    {
+      "id": 3,
+      "nom": "Booki",
+      "description": "Mission: Creating a travel agency homepage with HTML and CSS",
+      "stack": "HTML – CSS – Figma– Responsive – MobileFirst",
+      "image": "Booki.png",
+      "lien_github": "https://alexandre110282.github.io/Booki/"
+    },
+    {
+      "id": 4,
+      "nom": "Print-it",
+      "description": "Mission: Creating a JavaScript carousel",
+      "stack": "HTML - CCS - JavaScript",
+      "image": "Print-it.png",
+      "lien_github": "https://alexandre110282.github.io/Print_it/"
+    },
+    {
+      "id": 5,
+      "nom": "Nani Carducci",
+      "description": "Mission: Optimizing the SEO of a photographer's website",
+      "stack": "SEO - Lighthouse - GitHub",
+      "image": "Nina_Carducci.png",
+      "lien_github": "https://alexandre110282.github.io/ninacarducci.github.io/"
+    }
+  ]
+}

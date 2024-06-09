@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import '../styles/DropDownMenu.scss'
 import '../styles/Arrow.scss'
 import arrow from '../assets/arrow_back_ios-24px 2.png'
@@ -27,5 +28,8 @@ function DropdownMenu({ title, children }) {
   
   );
 }
-
+DropdownMenu.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
 export default DropdownMenu;
